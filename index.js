@@ -1,4 +1,5 @@
 // criar uma funçao para classificar o herói
+//utilizar estruturas de decisão
 function classificarNivel(xp) {
   if (xp < 1000) return "Ferro";
   else if (xp <= 2000) return "Bronze";
@@ -21,6 +22,8 @@ const herois = [
 ];
 
 // Exibir resultado
+//criar função (chamar heroi)
+//criar variavel/constante
 herois.forEach(heroi => {
   const nivel = classificarNivel(heroi.xp);
   console.log(`O Herói de nome ${heroi.nome} está no nível de ${nivel} (XP: ${heroi.xp})`);
